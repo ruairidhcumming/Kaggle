@@ -43,6 +43,3 @@ Xtst['AbsErr']=Xtst.SalePrice-Xtst.Ans
 plt.hist(Xtst.err)
 plt.scatter(Xtst.AbsErr,Xtst.SalePrice, c = Xtst.MSZoning)
 plt.title('Zoneing')
-plt.scatter(Xtst.AbsErr,Xtst.LotArea, c = Xtst.Fence)
-plt.title('Fence')
-
